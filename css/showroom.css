@@ -1,3 +1,28 @@
+body {
+    text-align: center;
+    font-style: arial, sans-serif;
+}
+
+p {
+    font-size: 35px;
+    max-width: 50%;
+    margin: auto;
+}
+
+.img1 {
+    padding: 10px 0 0 0;
+}
+
+.section1 {
+    background-color: #DCDCDC;
+}
+
+@media screen and (max-width: 980px) {
+    nav a {
+        margin-left: 50%;
+    }
+}
+
 @media screen and (max-width: 980px) {
     nav a {
         margin-left: 50%;
