@@ -3,6 +3,10 @@ body {
     font-style: arial, sans-serif;
 }
 
+nav {
+    font-size: 20px;
+}
+
 p {
     font-size: 35px;
     max-width: 50%;
