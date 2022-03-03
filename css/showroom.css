@@ -3,8 +3,12 @@ body {
     font-style: arial, sans-serif;
 }
 
+nav {
+    font-size: 20px;
+}
+
 p {
-    font-size: 35px;
+    font-size: 25px;
     max-width: 50%;
     margin: auto;
 }
@@ -13,18 +17,61 @@ p {
     padding: 10px 0 0 0;
 }
 
-.section1 {
-    background-color: #DCDCDC;
+.box1 {
+    width: 250px;
+    height: 1000px;
+    float: left;
+    padding-top: 10px;
+}
+
+.box2 {
+    width: 200px;
+    height: 1000px;
+    float: right;
+    padding: 0 20px 0 15px;
+    text-align: justify;
+    font-size: small;
+}
+
+.tex {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 30ch;
+    white-space: nowrap;
+    text-align: justify;
+}
+
+.card {
+    margin: 15px;
 }
 
 @media screen and (max-width: 980px) {
     nav a {
         margin-left: 50%;
     }
+    .box1 {
+        width: 0;
+        height: 0;
+    }
+    .box2 {
+        width: 0;
+        height: 0;
+    }
+    .card-group {
+        width: 1000px;
+    }
 }
 
-@media screen and (max-width: 980px) {
-    nav a {
-        margin-left: 50%;
+@media screen and (max-width: 900px) {
+    .card-group {
+        width: 100%;
+    }
+    .box1 {
+        width: 0;
+        height: 0;
+    }
+    .box2 {
+        width: 0;
+        height: 0;
     }
 }
