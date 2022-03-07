@@ -2,7 +2,7 @@ body {
     text-align: center;
     font-style: arial, sans-serif;
     align-items: center;
-    overflow: hidden;
+    background-color: #E9E5D6;
 }
 
 h1 {
@@ -11,11 +11,66 @@ h1 {
 
 nav {
     font-size: 20px;
+    background-color: #464E2E!important;
 }
+
+
+/* footer ini */
+
+footer {
+    background-color: #362706;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.6;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.copyright {
+    font-size: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+    margin: 0;
+}
+
+.footer-basic {
+    padding-top: 40px;
+}
+
+.footer-basic ul {
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-basic ul a {
+    text-decoration: none;
+}
+
+.tamanho {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* footerfim */
 
 .box1 {
     width: 250px;
-    height: 1000px;
+    height: 900px;
     float: left;
     padding-top: 20%;
     background: rgb(78, 66, 66);
@@ -23,7 +78,7 @@ nav {
 
 .box2 {
     width: 200px;
-    height: 1000px;
+    height: 900px;
     float: right;
     padding: 0 20px 0 15px;
     text-align: justify;
@@ -39,4 +94,13 @@ nav {
 .pagamentosImg {
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    nav a {
+        margin-left: 50%;
+    }
+    footer {
+        position: relative;
+    }
 }
