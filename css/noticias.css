@@ -2,6 +2,40 @@ body {
     font-style: arial, sans-serif;
 }
 
+#Titulo{
+    text-align: center;
+    text-decoration: underline;
+}
+.noticia{
+    border: 1px solid rgb(170, 169, 169);
+}
+.limp{
+    clear: both;
+}
+.pictures{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    float: left;
+    width: auto;
+}
+
+.textnot{
+    text-align: justify;
+    padding-left: 5%;
+    max-width: 65%;
+}
+
+.box1 {
+    max-width: 15%;
+    min-height: auto;
+    color: white;
+    background-color: rgb(228, 31, 31);
+    position:fixed;
+    right: 0;
+    text-align: center;
+}
+
 nav {
     font-size: 20px;
 }

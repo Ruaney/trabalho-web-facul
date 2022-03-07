@@ -3,6 +3,11 @@ body {
     font-style: arial, sans-serif;
 }
 
+.section1 {
+    width: 50%;
+    margin-left: 25%;
+}
+
 nav {
     font-size: 20px;
 }
