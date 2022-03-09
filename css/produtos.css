@@ -65,15 +65,21 @@ a:visited {
     height: 50px;
 }
 
+.social {
+    padding-left: 14%;
+}
+
 
 /* footerfim */
 
 .box1 {
-    width: 250px;
-    height: 900px;
-    float: left;
-    padding-top: 20%;
-    background: rgb(78, 66, 66);
+    max-width: 15%;
+    min-height: auto;
+    color: white;
+    background-color: rgb(228, 31, 31);
+    position: fixed;
+    right: 0;
+    text-align: center;
 }
 
 .box2 {
@@ -102,5 +108,13 @@ a:visited {
     }
     footer {
         position: relative;
+    }
+    .social {
+        padding-left: 0;
+    }
+    .box1 {
+        position: relative;
+        margin-left: 50px;
+        margin-bottom: 20px;
     }
 }

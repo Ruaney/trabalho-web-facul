@@ -3,6 +3,7 @@ body {
     font-style: arial, sans-serif;
     background-color: #E9E5D6;
     color: white;
+    overflow-x: hidden;
 }
 
 nav {
@@ -16,7 +17,6 @@ nav {
 footer {
     background-color: #362706;
     color: white;
-    position: absolute;
     bottom: 0;
     width: 100%;
     line-height: 1.6;
